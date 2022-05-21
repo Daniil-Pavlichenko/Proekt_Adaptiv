@@ -1,0 +1,234 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+body{
+    background-color:darkgray;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.content{
+     flex: 1 1 auto;
+}
+.heder {
+    background-color: blue;
+    color: white;
+}
+.contener {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 15px;
+}
+@media (max-width:1170px){
+    .contener{
+        max-width: 970px;
+    }
+}
+@media (max-width:992px){
+    .contener{
+        max-width: 750px;
+    }
+}
+@media (max-width:767px){
+    .contener{
+        max-width: none;
+    }
+    .inform__row{
+        display: flex;
+        flex-direction: column;
+    }
+    .heder__text{
+        flex-direction: column;
+    }
+    img{
+        max-width: 100%;
+        align-self: center;
+    }
+}
+.heder__row {
+    display: flex;
+    justify-content: space-between;
+}
+.heder__text {
+    display: flex;
+    align-items:center;
+    font-size: 18px;
+}
+a{
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+}
+.info {
+    margin-right: 20px;
+    color: white;
+}
+.code_examples {
+    margin-right: 20px;
+}
+.experience {
+    margin-right: 20px;
+}
+.education {
+    margin-right: 20px;
+}
+.image {
+}
+.img{
+    height: 50px;
+}
+.inform {
+}
+.contener {
+}
+.inform__row {
+    display: flex;
+    margin-top: 40px;
+}
+.inform__image {
+
+}
+img{
+    display: block;
+    max-height: 80%;
+    border-radius: 30px;
+}
+.my_inform{
+    
+}
+.my__title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px 0;
+    font-style: italic;
+}
+.my__list{
+    font-size: 18px ;
+}
+.my__list li{
+    list-style-type: disc;
+    list-style-position: inside;
+    margin-bottom: 5px;
+}
+.inform__text {
+    margin-left: 60px;
+}
+.personal_inf {
+    margin-bottom: 30px;
+}
+.personal__title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.personal__text {
+    font-size: 18px
+}
+.personal__text p{
+    margin-bottom: 10px;
+    text-indent: 20px;
+}
+.skills {
+    margin-bottom: 30px;
+}
+.skills__title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.skills__list {
+    font-size: 18px;
+    list-style-type:circle;
+}
+.skills__list li:last-child{
+    margin-bottom: 0;
+}
+.skills__list li{
+    list-style-type:disc;
+    list-style-position:inside;
+    margin-bottom: 10px;
+}
+.code {
+}
+.code__title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.funcnion {
+}
+.funcnion1 {
+    background-color: white;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+.function2 {
+    background-color: white;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 30px;
+}
+.experience2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.education2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.level {
+    margin-bottom: 40px;
+}
+.level__text{
+    font-size: 30px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+.level__text p{
+    font-size: 24px;
+}
+.footer {
+    background-color: aqua;
+    text-align: center;
+}
+.contener {
+}
+.footer__row {
+    display: inline-block;
+}
+.image {
+    display: flex;
+    margin: 10px 0;
+}
+.logotip {
+    height: 50px;
+}
+.logotip2 {
+    height: 50px;
+}
+.footer__text {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
